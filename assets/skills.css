@@ -1,0 +1,134 @@
+/***************************************************/
+/****************** PROGRAMMATION ******************/
+/***************************************************/
+.skills .count-bar[alt="java"]
+{
+	background-color: #e74c3c;
+}
+.skills .count-bar[alt="java"]::before
+{
+    background-color: #c0392b;
+}
+
+.skills .count-bar[alt="c"]
+{
+	background-color: #757575;
+}
+.skills .count-bar[alt="c"]::before
+{
+    background-color: #424242;
+}
+
+.skills .count-bar[alt="python"]
+{
+	background-color: #e2be2a;
+}
+.skills .count-bar[alt="python"]::before
+{
+    background-color: #caab2a;
+}
+
+.skills .count-bar[alt="r"]
+{
+	background-color: #9aa0c6;
+}
+.skills .count-bar[alt="r"]::before
+{
+    background-color: #6c7eb7;
+}
+
+/***************************************************/
+/*********************** WEB ***********************/
+/***************************************************/
+.skills .count-bar[alt="html"]
+{
+	background-color: #f16529;
+}
+.skills .count-bar[alt="html"]::before
+{
+    background-color: #e44d26;
+}
+
+.skills .count-bar[alt="css"]
+{
+	background-color: #33a9dc;
+}
+.skills .count-bar[alt="css"]::before
+{
+    background-color: #1572b6;
+}
+
+.skills .count-bar[alt="php"]
+{
+	background-color: #9aa0c6;
+}
+.skills .count-bar[alt="php"]::before
+{
+    background-color: #6c7eb7;
+}
+
+.skills .count-bar[alt="sql"]
+{
+	background-color: #757575;
+}
+.skills .count-bar[alt="sql"]::before
+{
+    background-color: #424242;
+}
+
+.skills .count-bar[alt="js"]
+{
+	background-color: #e2be2a;
+}
+.skills .count-bar[alt="js"]::before
+{
+    background-color: #caab2a;
+}
+
+/***************************************************/
+/********************* DESIGN **********************/
+/***************************************************/
+.skills .count-bar[alt="photoshop"]
+{
+	background-color: #5141db;
+}
+.skills .count-bar[alt="photoshop"]::before
+{
+    background-color: #251794;
+}
+
+.skills .count-bar[alt="illustrator"]
+{
+	background-color: #d46313;
+}
+.skills .count-bar[alt="illustrator"]::before
+{
+    background-color: #a24a0c;
+}
+
+.skills .count-bar[alt="indesign"]
+{
+	background-color: #eb499f;
+}
+.skills .count-bar[alt="indesign"]::before
+{
+    background-color: #db107c;
+}
+
+.skills .count-bar[alt="flat"]
+{
+	background-color: #16a085;
+}
+.skills .count-bar[alt="flat"]::before
+{
+    background-color: #0a7863;
+}
+
+.skills .count-bar[alt="ui"]
+{
+	background-color: #757575;
+}
+.skills .count-bar[alt="ui"]::before
+{
+    background-color: #424242;
+}

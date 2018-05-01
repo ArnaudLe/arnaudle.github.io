@@ -1,0 +1,339 @@
+/***************************************************************/
+/* ************************* GENERAL ************************* */
+/***************************************************************/
+html, body
+{
+	width: 100%;
+    height: 100%;
+	background: #ecf0f1;
+	font-family: "Oswald", sans-serif;
+	color: #2c3e50;
+	margin: 0;
+	padding: 0;
+}
+
+p
+{
+	font-family: 'Raleway', sans-serif;
+}
+
+a, a:hover
+{
+	color: #2c3e50;
+}
+
+.row
+{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wave
+{
+    width: 80%;
+    height: 50px;
+    background-image: url("img/wave.png");
+    background-repeat: repeat-x;
+    background-size: auto 50px;
+}
+
+/***************************************************************/
+/* *************************** NAV *************************** */
+/***************************************************************/
+#sticky-nav
+{
+	z-index: 999;
+	background: #2c3e50;
+	opacity: 0.95;
+}
+
+
+ul
+{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#sticky-nav li
+{
+	display: inline-block;
+	color: white;
+	padding: 20px 20px;
+	
+	text-transform: uppercase;
+	font-size: 1.4em;
+}
+
+#sticky-nav li:hover, #sticky-nav .active
+{
+	background: #EC644B;
+}
+
+/***************************************************************/
+/* ************************* SECTION ************************* */
+/***************************************************************/
+section
+{
+	padding: 65px 0px 65px 0px;
+}
+
+section img
+{
+	width: 300px;
+	border: 7px solid #bdc3c7;
+}
+
+section h1
+{
+	text-transform: uppercase;
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+section h2
+{
+	text-align: center;
+}
+
+section p
+{
+	text-align: center;
+	font-size: 1.2em;
+}
+
+section > h1
+{
+	color: #EC644B;
+}
+
+.row h1
+{
+	font-size: 1.7em;
+}
+
+.row h2
+{
+	font-size: 1.4em;
+}
+
+/* ************************* Profil ************************* */
+#profil
+{
+    background: #EC644B;
+    text-align: center;
+}
+
+#profil h1, #profil p
+{
+	color: white;
+}
+
+#profil h1
+{
+	font-size: 5em;
+}
+
+#profil p
+{
+	font-size: 2em;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#profil img
+{
+	border: 7px solid #2c3e50;
+}
+
+#profil #contact div
+{
+	border: 3px solid white;
+	transition: all 0.4s;
+}
+
+
+#profil #contact div:hover
+{
+	background: #c25541;
+	transition: all 0.4s;
+}
+
+
+#profil i
+{
+
+	color: white;
+	padding: 25px;
+
+}
+
+/* ************************* Formation ************************* */
+#formation img
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#formation h2
+{
+	font-size: 1.1em;
+	font-family: "Raleway", sans-serif;
+	margin-top: -20px;
+}
+
+/* ************************* Expérience & Projets ************************* */
+#exp h2
+{
+	padding: 0px 30px;
+	text-align: left;
+}
+
+#exp p
+{
+	text-align: justify;
+	padding: 0px 30px;
+}
+
+#exp img
+{
+	border: 7px solid #bdc3c7;
+	margin-bottom: 40px;
+}
+
+/* ************************* Compétences & Langues************************* */
+.skills
+{
+	width: 100%;
+	color: #fff;
+}
+
+.skills p
+{
+	text-align: left;
+	color: black;
+	padding-bottom: 40px;
+}
+
+.skills .skill-bar
+{
+	position: relative;
+	height: 50px;
+	width: 100%;
+    margin-bottom: 15px;
+    background-color: #dfe1e2;
+}
+
+.skills .skill-bar:before
+{
+	position: absolute;
+    height: 10px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background-color: #cecfd0;
+}
+
+.skills .count-bar
+{
+	position: relative;
+    height: 50px;
+    width: 0;
+}
+
+.skills .count-bar:before
+{
+	position: absolute;
+    height: 10px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    content: "";
+}
+
+.skills .title
+{
+	text-transform: uppercase;
+	margin-left: 20px;
+	line-height: 43px;
+	font-size: 1.4em;
+}
+
+.skills .count
+{
+	position: absolute;
+	right: 15px;
+	line-height: 43px;
+	font-size: 1.4em;
+}
+
+#langues img, #centres img
+{
+	width: 180px;
+	border: 7px solid white;
+}
+
+#langues img
+{
+	margin-top: 25px;
+}
+
+#langues
+{
+	margin-bottom: 35px;
+}
+
+#langues h2
+{
+
+	font-size: 1.6em;
+	font-family: "Raleway", sans-serif;
+}
+
+/* ************************* Centres d'intérêts ************************* */
+#centres img
+{
+	margin-bottom: 40px;
+}
+
+#centres p
+{
+	text-align: justify;
+	padding: 0px 30px;
+}
+
+/***************************************************************/
+/* ************************* FOOTER ************************** */
+/***************************************************************/
+
+footer
+{
+	bottom: 0px;
+	background: #2c3e50;
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+	margin: 0;
+}
+
+footer p
+{
+	color: white;
+	margin: 15px 0px 5px 0px;
+}
+
+footer i
+{
+	color: white;
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 8px;
+	transition: all 0.4s;
+}
+
+footer i:hover
+{
+	background: #EC644B;
+	transition: all 0.4s;
+}
